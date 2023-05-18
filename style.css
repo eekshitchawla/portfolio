@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    background-color: brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.firstPic{
+    background-image: url(assets/displayPic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+}
+.navBar{
+    background-color: #6f4e37;
+    text-align: center;
+}
+.btn{
+    background-color: #6f4e37;
+    border: none;
+    color: #F1EDEB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: #F1EDEB;
+    color: #6f4e37;
+}
+
+.name{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 150px;
+    position: center;
+    color: #F1EDEB;
+}
+.icons{
+    padding-top: 20px;
+    position: center;
+    text-align: center;
+}
+.icon{
+    padding-right: 50px;
+}
+.divSmallPic{
+    text-align: center;
+}
+.smallPic{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 45px;
+    border: 3px solid white;
+}
+.about{
+    background-color: white;
+    text-align: justify;
+    padding: 100px 250px;
+    font-weight: 600;
+}
+.skills{
+    background-color: #F1EDEB;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 200px;    
+    color: #6f4e37;
+    font-weight: 800;
+}
+.skillSet{
+    display: flex;
+    flex-wrap: wrap;
+}
+.eachSkill{
+    width : 20rem;
+    height: 2rem;
+    background-color: #C5B8AF;
+    border-radius: 0.8rem;
+    margin: 50px 20px 20px 20px;
+}
+.progress{
+    width: 80%;
+    height: 100%;
+    background-color:  #6f4e37;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+}
+
+.cpp{
+    width: 70%;
+}
+.html{
+    width: 80%;
+}
+.css{
+    width: 60%;
+}
+.js{
+    width: 65%;
+}
+.skillName{
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.workEx, .education{
+    padding: 25px;
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color:#6f4e37;
+}
+
+.education{
+    background-color: #F1EDEB;
+}
+.workExHeading{
+    padding: 25px;  
+}
+.workBox{
+    padding: 10px;
+    height: 75%;
+    width: 85%;
+    text-align: center;
+    position: relative;
+}
+.designation:nth-child(2n+1){
+    position: relative;
+    height: 30%;
+    width: 45%;
+    margin: 5px;
+    left:4%;
+    text-align: right;
+}
+.designation:nth-child(2n){
+    position: relative;
+    height: 30%;
+    width: 45%;
+    margin: 5px;
+    left:54%;
+    text-align: right;
+}
+.logo{
+    position:absolute;
+    height: 40%;
+    width: 15%;
+    display: flex;
+}
+
+.desName{
+    margin: 1px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.exp-nav{
+    width: 0;
+    height: 90%;
+    border: 1px dashed rgb(180, 49, 88);
+    position: absolute;
+    top: 5%;
+    left: 53%;
+}
+
+.planeitis{
+    top: 10%;
+    font-size: 30px;
+    transform: rotate(90deg);
+    position: sticky;
+    color: rgb(53, 49, 49);
+}
+.companyName{
+    color: orangered;
+    font-size: 20px;
+    font-weight:700;
+}
+.timePeriod, .lorem{
+    color: gray;
+    font-size: 18px;
+}
+.lorem{
+    text-align: justify;
+
+}
+.portfolio{
+    background-color: #fff;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 250px;    
+    color: #6f4e37;
+    font-weight: 800;
+}
+.img1{
+    width: 10rem;
+    height: 10rem;
+    margin: 10px 40px;
+}
+.img2{
+    width: 10rem;
+    height: 10rem;
+    margin: 10px 40px;
+
+}
+.contact{
+    background-image: linear-gradient(to right,rgb(25, 25, 121),purple);
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 150px;    
+    color: white;
+}
+.contactDetails{
+    display: flex;
+}
+.sendMail{
+    display:block;
+    padding-top: 50px;
+}
+.input{
+    margin: 10px;
+    text-align: left;
+    width: 60%;
+    background-color: transparent ;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white
+}
+textarea {
+    width: 60%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 16px;
+    resize: none;
+    color: white;
+  }
+  .sendMsg{
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .getInTouch{
+    width: 40%;
+    text-align: left;
+    font-size: medium;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 800px){
+    .exp-nav{
+        left:5%;
+    }
+    .designation:nth-child(2n), .designation:nth-child(2n+1){
+        left: 15%;
+        width: 80%;
+    }
+    /* .eachSkill{
+        width: 70rem;
+    }*/
+    .about{
+        width: 80%;
+        padding: 10%;
+        padding-top: 20%;
+    }
+    .contactDetails{
+        display: block;
+        width: 95%;
+        padding: 0%;
+    }
+    .input{
+        width: 95%;
+    }
+    textarea{
+        width: 95%;
+    }
+    .getInTouch{
+        display: block;
+        text-align: left;
+        width: 95%;
+
+    }
+  } 
